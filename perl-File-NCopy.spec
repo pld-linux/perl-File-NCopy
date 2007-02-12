@@ -6,7 +6,7 @@
 %define	pdir	File
 %define	pnam	NCopy
 Summary:	File::NCopy - Copy file, file Copy file[s] | dir[s], dir
-Summary(pl):	File::NCopy - kopiowanie pliku do pliku lub plików do katalogów
+Summary(pl.UTF-8):   File::NCopy - kopiowanie pliku do pliku lub plikÃ³w do katalogÃ³w
 Name:		perl-File-NCopy
 Version:	0.34
 Release:	1
@@ -36,20 +36,20 @@ pooched. To avoid this use file names instead, if at all possible,
 especially for the to file. If passed a file handle, it is not closed
 when copy returns, files opened by copy are closed.
 
-%description -l pl
-File::NCopy::copy kopiuje pliki do katalogów lub pojedynczy plik do
-innego pliku. Mo¿na tak¿e u¿ywaæ referencji do uchwytu pliku przy
-tworzeniu kopii pliku. Funkcjonalno¶æ jest bardzo podobna do cp. Je¶li
+%description -l pl.UTF-8
+File::NCopy::copy kopiuje pliki do katalogÃ³w lub pojedynczy plik do
+innego pliku. MoÅ¼na takÅ¼e uÅ¼ywaÄ‡ referencji do uchwytu pliku przy
+tworzeniu kopii pliku. FunkcjonalnoÅ›Ä‡ jest bardzo podobna do cp. JeÅ›li
 argumentem jest kopiowanie katalogu do katalogu i ustawiona jest flaga
 rekurencji, kopiowanie jest rekurencyjne podobnie jak przy cp -R. W
-rzeczywisto¶ci modu³ zachowuje siê w wiêkszo¶ci jak uniksowe cp. Przy
-wywo³aniu w kontek¶cie tablicy zwracana jest tablica pomy¶lnie
-wykonanych kopii, a w przeciwnym wypadku - ich liczba. Je¶li podano
-uchwyt pliku, trudno siê upewniæ, ¿e plik do którego kopiujemy nie
-jest tym samym, jako ¿e przy otwarciu pliku w trybie zapisu jest on
-nadpisywany. Aby tego unikn±æ, nale¿y u¿ywaæ nazw plików, w
-szczególno¶ci dla pliku docelowego. Je¶li podano uchwyt pliku, nie
-jest on zamykany, natomiast zamykane s± pliki otwierane przy
+rzeczywistoÅ›ci moduÅ‚ zachowuje siÄ™ w wiÄ™kszoÅ›ci jak uniksowe cp. Przy
+wywoÅ‚aniu w kontekÅ›cie tablicy zwracana jest tablica pomyÅ›lnie
+wykonanych kopii, a w przeciwnym wypadku - ich liczba. JeÅ›li podano
+uchwyt pliku, trudno siÄ™ upewniÄ‡, Å¼e plik do ktÃ³rego kopiujemy nie
+jest tym samym, jako Å¼e przy otwarciu pliku w trybie zapisu jest on
+nadpisywany. Aby tego uniknÄ…Ä‡, naleÅ¼y uÅ¼ywaÄ‡ nazw plikÃ³w, w
+szczegÃ³lnoÅ›ci dla pliku docelowego. JeÅ›li podano uchwyt pliku, nie
+jest on zamykany, natomiast zamykane sÄ… pliki otwierane przy
 kopiowaniu.
 
 %prep
