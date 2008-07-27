@@ -9,7 +9,7 @@ Summary:	File::NCopy - Copy file, file Copy file[s] | dir[s], dir
 Summary(pl.UTF-8):	File::NCopy - kopiowanie pliku do pliku lub plików do katalogów
 Name:		perl-File-NCopy
 Version:	0.34
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 # 0.34 not in mirrors.
