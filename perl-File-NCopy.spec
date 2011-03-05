@@ -8,14 +8,13 @@
 Summary:	File::NCopy - Copy file, file Copy file[s] | dir[s], dir
 Summary(pl.UTF-8):	File::NCopy - kopiowanie pliku do pliku lub plików do katalogów
 Name:		perl-File-NCopy
-Version:	0.34
-Release:	2
+Version:	0.36
+Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-# 0.34 not in mirrors.
-#Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MZ/MZSANFORD/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a2633eb0f3f8a6906303e709a35af26f
+Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	695eb9f4147da74555a87983d2b691ad
+URL:		http://search.cpan.org/dist/File-NCopy/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -74,5 +73,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_vendorlib}/File/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/File/NCopy.pm
+%{_mandir}/man3/File::NCopy.3pm*
